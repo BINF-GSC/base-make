@@ -11,8 +11,7 @@ LABEL maintainer.email="whargrea@uoguelph.ca"
 
 ################# INSTALLATION ####################
 # install the needed packages
-RUN apk update && \
-    apk add --no-cache \
+RUN sudo apk add --no-cache \
     g++ \
     make \
     zlib-dev \
